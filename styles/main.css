@@ -13,10 +13,11 @@ body{
 .linkBar{
     width: 40px;
     border-radius: 5px;
+    margin: auto;
 }
 
 .linkImg{
-    width: 32px;
+    width: 40px;
 }
 
 .blogContainer{
