@@ -13,11 +13,18 @@ body{
 .linkBar{
     width: 40px;
     border-radius: 5px;
-    margin: auto;
 }
 
 .linkImg{
     width: 40px;
+}
+
+.row{
+    display: flex;
+}
+.column{
+    flex: 33%;
+    padding: 3px;
 }
 
 .blogContainer{
