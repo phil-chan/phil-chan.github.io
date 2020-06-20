@@ -1,0 +1,52 @@
+html{
+    font-family: 'Roboto Mono';
+    background-color: lightslategray;
+    color: rgb(25,25,25);
+}
+.header {
+    text-align: center;
+    border-bottom: 8px solid darkslategray;
+}
+body{
+}
+
+.linkBar{
+    width: 40px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.linkImg{
+    width: 40px;
+}
+
+.blogContainer{
+    margin: 10 auto;
+    width: 50vw;
+}
+
+.blogPost {
+    border-radius: 5px;
+    margin: 10 auto;
+    width: 50vw;
+    border: 3px solid darkslategray;
+    background-color: rgb(83, 139, 139);
+}
+
+.blogContent {
+    margin: 10;
+}
+
+.postTitle {
+}
+
+.postLink {
+    
+}
+
+.postDesc {
+    font-weight: bold;
+}
+#postlist{
+    
+}
