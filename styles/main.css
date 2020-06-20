@@ -1,0 +1,27 @@
+.header {
+    background-image: url('../images/clouds.jpg');
+}
+
+.blogPost {
+    margin: 0 auto;
+    width: 50vw;
+    border: 1px solid grey;
+}
+
+.blogContent {
+    margin: 10;
+}
+
+.postTitle {
+}
+
+.postLink {
+    font: 12px italic;
+}
+
+.postDesc {
+    font-weight: bold;
+}
+#postlist{
+    font-style: italic;
+}
