@@ -1,11 +1,35 @@
+html{
+    font-family: 'Roboto Mono';
+    background-color: lightslategray;
+    color: rgb(25,25,25);
+}
 .header {
-    background-image: url('../images/clouds.jpg');
+    text-align: center;
+    border-bottom: 8px solid darkslategray;
+}
+body{
+}
+
+.linkBar{
+    width: 40px;
+    border-radius: 5px;
+}
+
+.linkImg{
+    width: 32px;
+}
+
+.blogContainer{
+    margin: 10 auto;
+    width: 50vw;
 }
 
 .blogPost {
-    margin: 0 auto;
+    border-radius: 5px;
+    margin: 10 auto;
     width: 50vw;
-    border: 1px solid grey;
+    border: 3px solid darkslategray;
+    background-color: rgb(83, 139, 139);
 }
 
 .blogContent {
@@ -16,12 +40,12 @@
 }
 
 .postLink {
-    font: 12px italic;
+    
 }
 
 .postDesc {
     font-weight: bold;
 }
 #postlist{
-    font-style: italic;
+    
 }
