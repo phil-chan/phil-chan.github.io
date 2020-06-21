@@ -37,7 +37,7 @@ body{
     margin: 10 auto;
     width: 50vw;
     border: 3px solid darkslategray;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(225, 225, 255);
 }
 
 .blogContent {
@@ -68,5 +68,5 @@ body{
 }
 .postAnswer{
     margin: 0 auto;
-    font-size: 13px;
+    font-size: 14px;
 }
