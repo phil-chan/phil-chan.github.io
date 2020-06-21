@@ -37,7 +37,7 @@ body{
     margin: 10 auto;
     width: 50vw;
     border: 3px solid darkslategray;
-    background-color: rgb(83, 139, 139);
+    background-color: rgb(255, 255, 255);
 }
 
 .blogContent {
@@ -56,4 +56,17 @@ body{
 }
 #postlist{
     
+}
+
+.postContent{
+    margin: 0 0 15 0;
+}
+.postQuestion{
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+.postAnswer{
+    margin: 0 auto;
+    font-size: 13px;
 }
