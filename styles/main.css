@@ -1,33 +1,37 @@
-html{
-    font-family: 'Roboto Mono';
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300;400&display=swap);
+
+html {
+    font-family: 'Noto Sans', sans-serif;
     background-color: lightslategray;
-    color: rgb(25,25,25);
+    color: rgb(25, 25, 25);
 }
+
 .header {
     text-align: center;
     border-bottom: 8px solid darkslategray;
 }
-body{
-}
 
-.linkBar{
+body {}
+
+.linkBar {
     width: 40px;
     border-radius: 5px;
 }
 
-.linkImg{
+.linkImg {
     width: 40px;
 }
 
-.row{
+.row {
     display: flex;
 }
-.column{
+
+.column {
     flex: 33%;
     padding: 3px;
 }
 
-.blogContainer{
+.blogContainer {
     margin: 10 auto;
     width: 50vw;
 }
@@ -44,16 +48,27 @@ body{
     margin: 10;
 }
 
-.postTitle {
-}
+.postTitle {}
 
-.postLink {
-    
-}
+.postLink {}
 
 .postDesc {
     font-weight: bold;
 }
-#postlist{
-    
+
+#postlist {}
+
+.postContent {
+    margin: 5;
+}
+
+.postQuestion {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.postAnswer {
+    margin: 0 auto;
+    font-size: 16px;
 }
