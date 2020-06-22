@@ -3,6 +3,8 @@
 <head>
   <title>My blog</title>
   <link rel="stylesheet" href="styles/main.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
@@ -12,67 +14,63 @@
     <p> It will eventually contain a list of links to all my blogs. </p>
   </div>
 
-  <div class="blogContainer">
+  <!-- container for all blog posts and content -->
+  <div class="container">
+    <!-- links container -->
+    <div class="container linksBar">
+      <a href="https://phil-chan.github.io"><img class="linkImg" src="images\home.png"></a>
+      <a href="https://github.com/phil-chan" target="_blank"><img class="linkImg" src="images\githubLight.png"></a>
+    </div>
 
-    <div class="linkBar">
+    <!-- main content container -->
+    <div class="container mainContent">
+      <!-- blogs row 1 -->
       <div class="row">
-        <div class="column">
-          <a href="https://phil-chan.github.io"><img class="linkImg" src="images\home.png"></a>
+        <div class="col-sm blogCard">
+          <h3 class="postTitle"><a class="postLink" href="blog/sprint1-technical.html">sprint1-technical</a></h3>
+          <ul id="postList">
+            <li>Creating an HTML file</li>
+            <li>Creating folders to categorise files</li>
+            <li>Linking an HTML and CSS file</li>
+          </ul>
         </div>
-        <div class="column">
-          <a href="https://github.com/phil-chan" target="_blank"><img class="linkImg" src="images\githubLight.png"></a>
+        <div class="col-sm blogCard">
+          <h3 class="postTitle"><a class="postLink" href="blog/sprint1-cultural.html">sprint1-cultural</a></h3>
+          <ul id="postList">
+            <li>Identity, Values and Strengths Exploration</li>
+          </ul>
+        </div>
+        <div class="col-sm blogCard">
+          <h3 class="postTitle"><a class="postLink" href="blog/sprint2-technical.html">sprint2-technical</a></h3>
+          <ul id="postList">
+            <li>The best practices associated with using classes vs ids</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- blogs row 2 -->
+      <div class="row">
+        <div class="col-sm blogCard">
+          <h3 class="postTitle"><a class="postLink" href="blog/sprint2-cultural.html">sprint2-cultural</a></h3>
+          <ul id="postList">
+            <li>Learning Reflections</li>
+          </ul>
+        </div>
+        <div class="col-sm blogCard">
+
+        </div>
+        <div class="col-sm blogCard">
+
         </div>
       </div>
     </div>
-
-    <div class="blogPost">
-      <div class="blogContent">
-        <h3 class="postTitle"><a class="postLink" href="blog/sprint1-technical.html">sprint1-technical (this one has no formatting)</a></h3>
-        <p class="postDesc">This blog was about:
-        <ul id="postList">
-          <li>Creating an HTML file</li>
-          <li>Creating folders to categorise files</li>
-          <li>Linking an HTML and CSS file</li>
-        </ul>
-        </p>
-      </div>
-    </div>
-
-    <div class="blogPost">
-      <div class="blogContent">
-        <h3 class="postTitle"><a class="postLink" href="blog/sprint1-cultural.html">sprint1-cultural</a></h3>
-        <p class="postDesc">This blog was about:
-        <ul id="postList">
-          <li>Identity, Values and Strengths Exploration</li>
-        </ul>
-        </p>
-      </div>
-    </div>
-
-    <div class="blogPost">
-      <div class="blogContent">
-        <h3 class="postTitle"><a class="postLink" href="blog/sprint2-technical.html">sprint2-technical</a></h3>
-        <p class="postDesc">This blog was about:
-        <ul id="postList">
-          <li>The best practices associated with using classes vs ids</li>
-        </ul>
-        </p>
-      </div>
-    </div>
-
-    <div class="blogPost">
-      <div class="blogContent">
-        <h3 class="postTitle"><a class="postLink" href="blog/sprint2-cultural.html">sprint2-cultural</a></h3>
-        <p class="postDesc">This blog was about:
-        <ul id="postList">
-          <li>Learning Reflections</li>
-        </ul>
-        </p>
-      </div>
-    </div>
-
   </div>
 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+    integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
