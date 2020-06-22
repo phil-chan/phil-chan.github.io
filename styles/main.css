@@ -43,7 +43,6 @@ body {
 }
 
 .blogPost {
-    padding: 2%;
     border-radius: 8px;
     margin-bottom: 20px;
     width: 100%;
@@ -61,14 +60,16 @@ body {
 }
 
 .postContent {
-    margin: 10;
+    padding: 20px;
 }
 
 .postQuestion {
     font-weight: bold;
     font-size: 16px;
+    margin: 0px;
 }
 
 .postAnswer {
     font-size: 16px;
+    margin: 0px;
 }
