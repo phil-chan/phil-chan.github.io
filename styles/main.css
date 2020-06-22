@@ -56,6 +56,10 @@ body {
     border-bottom: 1px solid rgb(220, 220, 220);
 }
 
+.blogCard:hover{
+    background-color: rgb(247, 247, 255);
+}
+
 .postContent {
     margin: 10;
 }
