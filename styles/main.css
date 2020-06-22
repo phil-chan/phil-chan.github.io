@@ -10,7 +10,7 @@ body {
 
 .header {
     text-align: center;
-    border-bottom: 10px solid rgb(50, 50, 50);
+    border-bottom: 10px solid rgb(30, 30, 30);
     border-top: 10px solid black;
     background-color: rgb(25, 25, 25);
     color: rgb(235, 235, 235);
@@ -18,10 +18,11 @@ body {
 
 .linksBar{
     background-color: rgb(250, 250, 255);
-    border-bottom: 1px solid rgb(235, 235, 235);
-    border-left: 1px solid rgb(235, 235, 235);
-    border-right: 1px solid rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    border-left: 1px solid rgb(200, 200, 200);
+    border-right: 1px solid rgb(200, 200, 200);
     padding: 1%;
+    border-radius: 2px;
 }
 
 .linkImg {
@@ -34,10 +35,11 @@ body {
 }
 
 .blogCard{
-    border: 1px solid rgb(235, 235, 235);
-    border-radius: 8px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
     padding: 10px;
     margin: 5px;
+    background-color: rgb(253, 253, 255);
 }
 
 .blogPost {
@@ -45,7 +47,13 @@ body {
     border-radius: 8px;
     margin-bottom: 20px;
     width: 100%;
-    border: 1px solid rgb(235, 235, 235);
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.postTitle {
+    padding: 5px;
+    font-size: 24px;
+    text-decoration: underline;
 }
 
 .postContent {
