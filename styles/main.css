@@ -4,9 +4,7 @@ html {
     font-family: 'Noto Sans', sans-serif;
 }
 
-body {
-
-}
+body {}
 
 .header {
     text-align: center;
@@ -16,7 +14,7 @@ body {
     color: rgb(235, 235, 235);
 }
 
-.linksBar{
+.linksBar {
     background-color: rgb(250, 250, 255);
     border-bottom: 1px solid rgb(200, 200, 200);
     border-left: 1px solid rgb(200, 200, 200);
@@ -30,11 +28,15 @@ body {
     margin: 5px;
 }
 
-.mainContent{
+.linkImg:hover {
+    opacity: 50%;
+}
+
+.mainContent {
     padding-top: 40px;
 }
 
-.blogCard{
+.blogCard {
     border: 1px solid rgb(200, 200, 200);
     border-radius: 4px;
     padding: 10px;
@@ -55,7 +57,7 @@ body {
     border-bottom: 1px solid rgb(220, 220, 220);
 }
 
-.blogCard:hover{
+.blogCard:hover {
     background-color: rgb(247, 247, 255);
 }
 
