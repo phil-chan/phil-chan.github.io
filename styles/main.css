@@ -23,8 +23,13 @@ body {
     border-bottom: 1px solid rgb(200, 200, 200);
     border-left: 1px solid rgb(200, 200, 200);
     border-right: 1px solid rgb(200, 200, 200);
-    padding: 1%;
     border-radius: 4px;
+}
+
+.links{
+    padding: 10px;
+    margin: auto;
+    width: auto;
 }
 
 .linkImg {
