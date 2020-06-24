@@ -11,6 +11,9 @@ body {
     background-repeat: no-repeat;
 }
 
+.postTitle a{
+    text-decoration: underline;
+}
 
 pre {
     white-space: pre-wrap;
