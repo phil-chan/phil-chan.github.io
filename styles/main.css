@@ -11,6 +11,11 @@ body {
     background-repeat: no-repeat;
 }
 
+
+pre{
+    white-space: pre-wrap;
+}
+
 .header {
     text-align: center;
     padding: 10px;
