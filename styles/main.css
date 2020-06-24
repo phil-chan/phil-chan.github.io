@@ -12,7 +12,7 @@ body {
 }
 
 
-pre{
+pre {
     white-space: pre-wrap;
 }
 
@@ -31,7 +31,7 @@ pre{
     border-radius: 4px;
 }
 
-.links{
+.links {
     padding: 10px;
     margin: auto;
     width: auto;
@@ -91,4 +91,5 @@ pre{
     margin: 0px;
     padding: 16px;
     background-color: rgb(245, 246, 248);
+    border: 1px solid rgb(220, 220, 220);
 }
