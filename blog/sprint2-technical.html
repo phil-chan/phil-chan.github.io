@@ -34,12 +34,19 @@
                 <div class="blogPost">
                     <div class="postContent">
                         <h3 class="postTitle">What are the best practices associated with using classes vs. ids?</h3>
-                        <p class="postDesc">To consider:
-                        <ul id="postList">
-                            <li>IDs should be unique, there will only ever be one of this: #id{}</li>
-                            <li>Classes can be common, there should be groups of similar elements under each class:
-                                .class{}
-                            </li>
+                        <p class="postQuestion">IDs</p>
+                        <pre class="postAnswer">Best practices: IDs should be unique, there will only ever be one of this in the entire web page 
+                       
+Example: the main logo of a website, which should be unique will be assigned an id. See below
+An id attribute assigned in HTML: id = "mainLogo"
+An id attribute assigned the font color red in a seperate CSS file: #mainLogo: {color: red};</pre>
+                        <p class="postQuestion">Classes</p>
+                        <pre class="postAnswer">Best practices: Classes can be common, there should be groups of similar elements under each class
+
+Example: there are many blog posts, so they should be assigned a class. See below
+A class attribute assigned in HTML: class = "blogPosts"
+A class attribute assigned the font color pink in a seperate CSSfile: .blogPosts {color: pink};</pre>
+                        </li>
                         </ul>
                         </p>
                     </div>
