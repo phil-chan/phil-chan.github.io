@@ -11,10 +11,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.postTitle {
-    color: #00448dbb;
-}
-
 .postTitle a{
     color: #007bff;
     text-decoration: underline;
