@@ -11,13 +11,20 @@ body {
     background-repeat: no-repeat;
 }
 
-.postTitle a{
+.postTitle a {
     color: #007bff;
     text-decoration: underline;
 }
 
 pre {
     white-space: pre-wrap;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
 }
 
 .header {
