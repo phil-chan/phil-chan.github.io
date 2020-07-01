@@ -34,13 +34,24 @@ pre code {
     color: rgb(250, 250, 246);
 }
 
-/* .linksBar {
-    background-color: rgb(250, 251, 253);
+.links {
+    padding: 10px;
+    margin: auto;
+    transition: all .33s;
+}
+
+#line {
+    position: absolute;
+    top: 100%;
+    width: 150px;
+    height: 2px;
     border-bottom: 1px solid rgb(200, 200, 200);
-    border-left: 1px solid rgb(200, 200, 200);
-    border-right: 1px solid rgb(200, 200, 200);
-    border-radius: 4px;
-} */
+    transition: all 0.33s;
+}
+
+.links:hover #line {
+    width: 100%;
+}
 
 @keyframes iconflash {
     0% {
@@ -56,15 +67,11 @@ pre code {
     }
 }
 
-.links {
-    padding: 10px;
-    margin: auto;
-    border-bottom: 1px solid rgb(200, 200, 200);
-}
-
 .linkImg {
     width: 60px;
     margin: 5px;
+    transition: .33s;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .linkImg:hover {
