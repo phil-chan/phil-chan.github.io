@@ -49,10 +49,6 @@ pre code {
     transition: all 0.33s;
 }
 
-.links:hover #line {
-    width: 100%;
-}
-
 @keyframes iconflash {
     0% {
         opacity: 1
@@ -67,14 +63,21 @@ pre code {
     }
 }
 
+.links a {
+    height: 60px;
+}
+
 .linkImg {
-    width: 60px;
+    width: 30px;
     margin: 5px;
-    transition: .33s;
+    transition: .20s;
     border-bottom: 1px solid rgb(255, 255, 255);
+    padding-top: 33%;
 }
 
 .linkImg:hover {
+    padding-top: 0%;
+    width: 60px;
     opacity: 66%;
     animation-name: iconflash;
     animation-duration: 2s;
