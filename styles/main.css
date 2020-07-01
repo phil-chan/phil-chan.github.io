@@ -63,14 +63,17 @@ pre code {
 
 .blogCard {
     border: 1px solid rgb(200, 200, 200);
-    border-radius: 4px;
+    border-radius: 20px;
     padding: 10px;
     margin: 5px;
     background-color: rgb(253, 253, 255);
+
+    transition: all .33s cubic-bezier(.25, .8, .25, 1);
 }
 
 .blogCard:hover {
-    background-color: rgb(245, 246, 248);
+    border-radius: 0px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .blogPost {
